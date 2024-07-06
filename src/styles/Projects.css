@@ -1,0 +1,16 @@
+.projects-container {
+    padding: 20px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+
+
+}
+
+.project-item {
+    border: 1px solid black;
+    margin: 10px;
+}
